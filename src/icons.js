@@ -22,6 +22,18 @@ const PlusSquareO = props => (
   </svg>
 )
 
+const CheckedSquareO = props => (
+  <svg {...props} viewBox="0 0 1024 1024">
+    <path d="M896 0l-768 0c-70.41024 0-128 57.61024-128 128l0 768c0 70.41024 57.61024 128 128 128l768 0c70.41024 0 128-57.61024 128-128l0-768c0-70.41024-57.61024-128-128-128zM448 794.50112l-237.2608-237.2608 90.50112-90.50112 146.7392 146.7392 306.74944-306.74944 90.50112 90.50112-397.25056 397.25056z" />
+  </svg>
+)
+
+const UncheckedSquareO = props => (
+  <svg {...props} viewBox="64 -65 897 897">
+    <path d="M810.666667 128 213.333333 128C165.973333 128 128 165.973333 128 213.333333L128 810.666667C128 857.6 166.4 896 213.333333 896L810.666667 896C857.6 896 896 857.6 896 810.666667L896 213.333333C896 165.973333 857.6 128 810.666667 128Z" />
+  </svg>
+)
+
 const CloseSquareO = props => (
   <svg {...props} viewBox="64 -65 897 897">
     <g>
@@ -33,4 +45,4 @@ const CloseSquareO = props => (
   </svg>
 )
 
-export { PlusSquareO, MinusSquareO, CloseSquareO }
+export { PlusSquareO, MinusSquareO, CloseSquareO, CheckedSquareO, UncheckedSquareO }

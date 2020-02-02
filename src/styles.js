@@ -36,6 +36,11 @@ const Global = createGlobalStyle`
   #root {
     padding: 30px;
   }
+
+  input {
+    background: transparent;
+    color: white;
+  }
 `
 
 const Frame = styled('div')`
